@@ -1,5 +1,14 @@
 package com.company;
 
-public class Hero extends Weapon{
+public class Hero extends GameEntity{
+    private  Weapon weapon;
 
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
 }
+
